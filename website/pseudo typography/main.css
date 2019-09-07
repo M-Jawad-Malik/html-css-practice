@@ -1,0 +1,11 @@
+p::first-letter
+{
+    font-family: cursive;
+    font-size: 25px;
+    color: #70a0d0;
+}
+p::first-line
+{
+    color: #FFC0CB;
+    font-size: 20px;
+}

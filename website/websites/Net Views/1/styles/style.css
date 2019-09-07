@@ -1,0 +1,366 @@
+/*header styles starts*/
+header{
+  height: auto;
+  text-align: center;
+  background-color: lightgrey;
+}
+.headerLogo{
+  display: inline-block;
+  max-width: 100%;
+  height: 120px;
+}
+nav{
+  display: inline-block;
+  vertical-align: top;
+}
+.headerNavList{
+  display: inline-block;
+}
+/*selecting all li (list items ) in header ul(.headerNavList)*/
+.headerNavList li{
+  display: inline-block;
+  padding: 16px;
+  font-size: 20px;
+}
+.headerNavList a{
+  text-decoration: none;/*remove undeline from <a> tag*/
+  color: black;
+}
+
+/*adding styles for mobile devices*/
+@media (max-width: 600px) {
+  .headerLogo{
+    height: 50px;/*decreased height of logo image*/
+  }
+  .headerNavList li{
+    padding: 5px 10px;  /*decrease the padding of li */
+  }
+}
+
+/*header styles end*/
+
+
+
+/*Contact Us Page styles start here*/
+.contactUsMain{
+  width: 100%;
+}
+.contactUsForm{
+    margin-top: 45px;
+}
+
+
+input,textarea{
+    display: block;
+    margin: 16px auto;
+    padding: 16px;
+}
+input{
+    width: 280px;
+}
+textarea{
+    width: 280px;
+    height: 100px;
+}
+.contactUsMain h1, .contactUsMain p{
+    text-align: center;
+}
+
+.contactUsMain p{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+
+/*Contact Us Page styles end*/
+
+
+
+/*Privacy Policy Page styles Starts*/
+
+.privacyPolicyMain{
+    width: 100%;
+}
+.privacyPolicyMain h1{
+    text-align: center;
+}
+.privacyPolicyMain h3{
+    width: 70%;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+
+
+
+.privacyPolicyMain p{
+    width: 70%;
+    margin: 20px auto;
+    font-size: 19px;
+    font-family: sans-serif;
+    line-height: 1.3;
+    color: #282828;
+}
+.privacyPolicyEmail{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.privacyPolicyEmail h4,.privacyPolicyEmail a{
+    display: inline-block;
+}
+.privacyPolicyEmail a{
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 500px) {
+
+    .privacyPolicyMain p{
+        width: 95%;
+        font-size: 17px;
+    }
+    .privacyPolicyMain h3{
+        width: 95%;
+    }
+
+    .privacyPolicyEmail{
+        width: 95%;
+    }
+
+}
+
+
+/*Privacy Policy  Page styles end*/
+
+
+
+
+/*Terms and Conditions Page styles Starts*/
+
+.termsConditionMain{
+    width: 100%;
+}
+.termsConditionMain h1{
+    text-align: center;
+}
+
+
+.termsConditionMain p{
+    width: 70%;
+    margin: 20px auto;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.4;
+}
+
+@media (max-width: 500px) {
+
+    .termsConditionMain p{
+        width: 95%;
+        font-size: 17px;
+    }
+
+}
+
+
+/*Terms and Conditions Page styles end*/
+
+
+
+/*Services Page styles Starts*/
+
+.servicesMain{
+    margin-top:30px;
+}
+
+
+.servicesMain h1{
+    text-align: center;
+}
+
+.service{
+    width: 32.5%;
+    height: 400px;
+    float: left;
+    margin: 2px;
+    border: 1px solid black;
+    text-align: center;
+    background-size: cover;
+
+}
+
+#serviceOne{
+    background-image: url("../images/service1.jpg");
+}
+
+
+#serviceTwo{
+    background-image: url("../images/service2.jpg");
+}
+
+
+#serviceThree{
+    background-image: url("../images/service3.jpg");
+}
+
+
+#serviceFour{
+    background-image: url("../images/service4.jpg");
+}
+
+
+#serviceFive{
+    background-image: url("../images/service5.jpg");
+}
+
+
+#serviceSix{
+    background-image: url("../images/service6.jpg");
+}
+
+
+#serviceSeven{
+    background-image: url("../images/service7.jpg");
+}
+
+
+#serviceEight{
+    background-image: url("../images/service8.jpg");
+}
+
+
+#serviceNine{
+        background-image: url("../images/service9.png");
+}
+
+.service article {
+    background-color: rgba(0,0,0,0.5);
+    padding: 10px;
+    height: 380px;
+}
+
+.service h4{
+    color: green;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.service p{
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+#upper
+{
+	background-color:black;
+	width:100%;
+	height:250px;
+}
+#upper:after
+{
+	content:"";
+	clear:both;
+	display:table;
+	
+}
+#lower
+{
+	background-color:grey;
+	width:100%;
+}
+
+#lower:after
+{
+	content:"";
+	clear:both;
+	display:table;
+}
+.footer
+{
+	width:25%;
+	float:left;
+	display:inline-block;
+	text-align:center;
+	color:grey;
+	background-color:black;
+}
+#footerlogo
+{
+	float:left;
+	text-align:center;
+}
+#footerpolicy
+{
+	float:left;
+	width:79%;
+	text-align:center;
+}
+#logo1
+{
+	height:100px;
+	margin-left:14%;
+	margin-top:-15px;
+	display:inline-block;
+	
+}
+footer
+{
+	margin-top:18px;
+}
+.upper
+{
+
+list-style-type:none;
+overflow:hidden;
+margin:0px;
+padding:0px;
+
+}
+.li1
+{
+	margin:10px;
+	text-align:right;
+	float:left;
+}
+.li1 a{
+	
+	padding:12px;
+color:black;
+text-decoration:none;
+font-size:20px;
+
+}
+.li1 a:hover
+{
+background-color:red;}
+.li2
+{
+	margin:11px;
+	color:blue;
+}
+.li2 a{
+	
+	padding:8px;
+color:blue;
+text-decoration:none;
+font-size:15px;
+
+}
+.li2 a:hover
+{
+background-color:red;}
+.l3
+{
+	list-style-type:digits;
+}
+
+
+
+/*Services Page styles end*/
+
+
+
+

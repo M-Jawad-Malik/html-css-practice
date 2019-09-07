@@ -1,0 +1,22 @@
+li:first-child
+{
+    color: #FFC0CB;
+}
+li:last-child
+{
+    color: #fbe54e;
+}
+
+li:nth-child(even)
+{
+    color: blue;
+}
+li:nth-child(2n+1)
+{
+    color: coral;
+    font-size: 28px;
+}
+li:only-child
+{
+    color:green;
+}

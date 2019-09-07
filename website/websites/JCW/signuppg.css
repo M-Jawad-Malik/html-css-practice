@@ -1,0 +1,232 @@
+/*signup.css*/
+<style>
+#unknown
+{
+	width:10%;
+}
+body
+{
+	background-color:transparent;
+}
+#div1
+{
+
+   text-align:center;
+	width:30%;
+margin-top:1%;
+	float:left;
+
+}
+#div7
+{
+float:left;
+   text-align:center;
+	width:70%;
+	margin-top:1%;
+
+}
+label
+{
+	margin-left:-45%;
+	font-size:40px;
+	font-family:Comic Sans MS;
+	color:#0A3D62;
+	
+	
+}
+#logo1
+{
+		margin-left:-25%;
+	width:20%;
+	height:10%;
+	margin-top:2%;
+	
+	
+}
+#p
+{
+	display:inline;
+}
+#div2
+{
+	margin-top:0%;
+	font-family:Comic Sans MS;
+}
+a:hover
+{
+	background-color:green;
+	
+}
+a:visited{
+	background-color:blue;
+	
+}
+a:active{
+background-color:red;
+}
+#div3
+{
+	text-align:center;
+	width:30%;
+	float:left;
+	margin-left:32%;
+
+
+}
+#div4
+{
+	text-align:center;
+	float:left;
+	width:30%;
+	margin-left:-19%;
+	
+
+}
+#div2::after
+{
+	content:"";
+	clear:both;
+	display:table;
+}
+.input1
+{
+	border-bottom:1px solid gray;
+	border-top:0px;
+	border-left:0px;
+	border-right:0px;
+	width:50%;
+	font-size:17px;
+	border-radius:5px;
+	font-family:Comic Sans MS;
+}
+#section2
+{
+	margin-top:3%;
+}
+#div5
+{
+	float:left;
+	width:50%;
+		border-right:2px solid black;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:0px;
+	
+}
+#p1{
+	padding:8px;
+	margin:6px;
+	border:2px solid black;
+	border-radius:8px;
+	background-color:#B83227;
+	text-align:center;
+	width:40%;
+	color:white;
+}
+#p2{
+	padding:8px;
+	margin:6px;
+	border:2px solid black;
+	border-radius:8px;
+	background-color:#192A56;
+	text-align:center;
+	width:40%;
+	color:white;
+}
+fieldset
+{
+	margin-left:13%;
+	border-top:0px;
+	border-left:0px;
+	border-bottom:0px;
+	border-right:0px;
+	
+}
+legend
+{
+	
+	color:#0A79DF;
+	font-size:20px;
+	margin-left:20%;
+}
+form
+{
+	font-family:Comic Sans MS;
+	margin-left:10%;
+	font-size:17px;
+}
+input[type="text"]:focus 
+{
+	width:50%;
+	background-color:#487EB0;
+	border:2px solid black;
+	height:30px;
+	border-radius:5px;
+
+	
+}
+input[type="email"]:focus 
+{
+
+	width:50%;
+	background-color:#487EB0;
+	border:2px solid black;
+	height:30px;
+	border-radius:10px;
+	
+}
+input[type="password"]:focus 
+{
+
+	width:50%;
+	background-color:#487EB0;
+	border:2px solid black;
+	height:30px;
+	border-radius:10px;
+	
+}
+input[type="submit"]
+{
+
+	width:30%;
+	background-color:transparent;
+	border:2px solid #758AA2;
+	height:30px;
+	border-radius:10px;
+	margin-left:11%;
+	
+}
+input[type="submit"]:hover
+{
+
+	
+	background-color:#6A89CC;
+	
+	
+}
+#div6
+{
+	float:left;
+width:34%;
+margin-left:15%;
+margin-top:7%;
+margin-bottom:4px;
+padding:2px;
+font-family:Comic Sans MS;
+
+
+}
+section:after
+{
+	content:"";
+	clear:both;
+	display:table;
+	
+}
+#div8
+{
+	font-family:Comic Sans MS;
+	margin-top:4%;
+	text-align:center;
+}
+</style>

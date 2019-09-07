@@ -1,0 +1,17 @@
+h1,h2
+{
+
+    font-size: 76px;
+    font-family: "Bitstream Vera Sans Mono",sans-serif;
+    font-weight: lighter;
+    font-variant: small-caps;
+    font-style:oblique;
+    text-align: center;
+    text-shadow:4px 4px 5px bisque;
+    text-indent: 4px;
+    text-decoration: underline;
+    color: #bb60d5;
+    text-decoration-style:wavy;
+    /*text-decoration-style:dotted-dashed-wavy-double-solid*/
+   text-decoration-color: blue;
+}

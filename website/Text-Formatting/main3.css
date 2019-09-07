@@ -1,0 +1,16 @@
+/*font-size-units:rem(relative to browser's font-size);
+em(relative to parent font size);
+vw(relative to viewport width);
+vh(relative to height of viewport);
+larger,smaller(relative to parent font size);
+*/
+p
+{font-size: 2vw;}
+h1
+{
+    font-size: 2rem;
+}
+h3
+{
+    font-size: 2em;
+}

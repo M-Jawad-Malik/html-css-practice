@@ -1,0 +1,31 @@
+h1
+{
+    text-align: Center;
+    background-color: #FFC0CB;
+    border-radius: 12px;
+    padding: 15px;
+    font-size: 25px;
+}
+img
+{
+    margin-left: 40%;
+    border-radius: 100%;
+    border: 2px groove black;
+    padding: 5px;
+}
+ul
+{
+    list-style-type: none;
+    font-size: 16px;
+    padding: 15px;
+}
+p
+{
+    color: bisque;
+    font-size: 20px;
+    background-color: black;
+    border-radius: 12px;
+    padding: 15px;
+
+}
+

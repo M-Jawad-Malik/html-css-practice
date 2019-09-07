@@ -1,0 +1,36 @@
+*
+{
+    font-family: "Bitstream Vera Sans Mono";
+}
+h1
+{
+    padding: 15px;
+    background-color: lightseagreen;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 28px;
+
+}
+.paragraph
+{
+    background-color: #2B2B52;
+    font-size: 1,5vw;
+    padding: 12px;
+    color: gainsboro;
+    text-align: center;
+}
+.list
+{
+    font-size: 17px;
+    list-style-type: square;
+    color: #902000;
+
+}
+img
+{
+    border-radius: 100%;
+    margin-left: 40%;
+    padding: 10px;
+    border: 2px inset black;
+
+}

@@ -1,0 +1,14 @@
+html,body,div,span,h1,h2,h3,h4,h5,h6,blockquote,p,b,big,small,sub,sup,header,footer,nav,video,audio,form,
+legend,fieldset,table,output,input,section,abbr,button,canvas,caption,datalist,label,kbd,strong,em,img
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    outline: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    vertical-align: baseline;
+    line-height: 1;
+    font-weight: normal;
+}

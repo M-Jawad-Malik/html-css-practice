@@ -1,0 +1,19 @@
+img
+{
+    width:300px ;
+    height: 200px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 5px #74B9FF;
+    box-sizing: border-box;
+}
+div
+{
+    height: 180px;
+    width: 310px;
+    border:2px inset #74B9FF;
+    display: inline-block;
+    margin: 10px;
+    box-sizing: border-box;
+    background-image: url("../htdocs/JCW/images.jpg");
+
+}

@@ -1,0 +1,22 @@
+div p:first-letter
+{
+    font-family: cursive;
+    font-size: 25;
+    color: #74B9FF;
+}
+
+div p:first-line
+{
+    color: red;
+}
+/*Child immediately after div*/
+div > p
+{
+    color: #902000;
+}
+/*Siblings div ~ p*/
+div ~ p
+{
+    color: lightseagreen;
+}
+/*for all paragraphs after div use div + p*/
